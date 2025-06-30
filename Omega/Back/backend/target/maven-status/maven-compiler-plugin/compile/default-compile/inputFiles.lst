@@ -1,0 +1,11 @@
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\BackendApplication.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\constants\AccountsConstants.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\controller\CustomerController.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\dto\CustomerDto.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\dto\ErrorResponseDto.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\dto\ResponseDto.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\entity\Applicant.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\entity\BaseEntity.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\mapper\CustomerMapper.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\repository\CustomerRepository.java
+C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Back\backend\src\main\java\com\omegadummy\backend\service\CustomerService.java
