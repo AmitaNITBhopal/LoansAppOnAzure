@@ -100,7 +100,7 @@
 		        <artifactId>azure-webapp-maven-plugin</artifactId>
 		        <version>2.11.1</version>
 		        <configuration>
-		            <schemaVersion>v2</schemaVersion>
+		            <schemaVersion>v1</schemaVersion>
 		            <resourceGroup>backend-1751291544261-rg</resourceGroup>
 		            <appName>backend-1751291544261</appName>
 		            <pricingTier>F1</pricingTier>

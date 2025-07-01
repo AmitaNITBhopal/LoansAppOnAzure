@@ -1,0 +1,11 @@
+com\omegadummy\backend\mapper\CustomerMapper.class
+com\omegadummy\backend\entity\BaseEntity.class
+com\omegadummy\backend\constants\AccountsConstants.class
+com\omegadummy\backend\controller\CustomerController.class
+com\omegadummy\backend\dto\ResponseDto.class
+com\omegadummy\backend\dto\ErrorResponseDto.class
+com\omegadummy\backend\entity\Applicant.class
+com\omegadummy\backend\repository\CustomerRepository.class
+com\omegadummy\backend\service\CustomerService.class
+com\omegadummy\backend\dto\CustomerDto.class
+com\omegadummy\backend\BackendApplication.class
