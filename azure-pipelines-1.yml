@@ -45,3 +45,4 @@ steps:
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.jar'
     RuntimeStack: 'JAVA|17-java17'
     DeploymentTypeLinux: 'oneDeploy'
+
