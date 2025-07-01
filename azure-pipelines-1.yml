@@ -39,6 +39,9 @@ steps:
     ConnectionType: 'AzureRM'
     appType: 'webAppLinux'
     WebAppName: 'LoansApp'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deployToSlotOrASE: true
+    ResourceGroupName: 'webapp-1751299056983-rg'
+    SlotName: 'production'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.jar'
     RuntimeStack: 'JAVA|17-java17'
     DeploymentTypeLinux: 'oneDeploy'
