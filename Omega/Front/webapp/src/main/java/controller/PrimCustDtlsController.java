@@ -69,4 +69,16 @@ URI uri;
 		}
 		return info;
 	}
+	
+	@GetMapping("/") 
+	public String ShowIndex(Model model) {
+		System.out.println("\n Inside ShowIndexHTML :\n");
+		CustomerInfo info = new CustomerInfo();
+		info.setName("amita");
+		String str = "abc";
+		model.addAttribute("info",info);
+		 
+		 
+		return "Index";
+	}
 }
