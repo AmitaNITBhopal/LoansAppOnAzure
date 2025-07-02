@@ -10,4 +10,8 @@ class WebappApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void contextLoads1() {
+	}
+
 }
