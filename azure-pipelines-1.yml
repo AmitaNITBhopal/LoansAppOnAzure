@@ -37,6 +37,7 @@ steps:
 - task: AzureRmWebAppDeployment@5
   inputs:
     ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1(c00274c6-77cd-4c79-9a60-4dc0810f07f4)'
     appType: 'webAppLinux'
     WebAppName: 'LoansApp'
     deployToSlotOrASE: true
