@@ -43,7 +43,7 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'webapp-1751299056983-rg'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.jar'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/webapp-0.0.1-SNAPSHOT.jar'
     RuntimeStack: 'JAVA|17-java17'
     DeploymentTypeLinux: 'oneDeploy'
 
