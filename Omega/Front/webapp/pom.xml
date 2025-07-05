@@ -62,13 +62,6 @@
 							<artifactId>lombok</artifactId>
 						</path>
 					</annotationProcessorPaths>
-					<archive>
-				          <manifest>
-				            <addClasspath>true</addClasspath>
-				            <classpathPrefix>lib/</classpathPrefix>
-				            <mainClass>com.omegadummy.webapp.WebappApplication</mainClass>
-				          </manifest>
-				        </archive>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -108,6 +101,13 @@
 		                    </resource>
 		                </resources>
 		            </deployment>
+		            <archive>
+				          <manifest>
+				            <addClasspath>true</addClasspath>
+				            <classpathPrefix>lib/</classpathPrefix>
+				            <mainClass>com.omegadummy.webapp.WebappApplication</mainClass>
+				          </manifest>
+				     </archive>
 		        </configuration>
 		    </plugin>
 		</plugins>
