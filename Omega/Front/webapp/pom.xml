@@ -76,40 +76,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-		    <plugin>
-		        <groupId>com.microsoft.azure</groupId>
-		        <artifactId>azure-webapp-maven-plugin</artifactId>
-		        <version>2.14.1</version>
-		        <configuration>
-		            <schemaVersion>v2</schemaVersion>
-		            <resourceGroup>webapp-1751299056983-rg</resourceGroup>
-		            <appName>LoansApp1</appName>
-		            <pricingTier>F1</pricingTier>
-		            <region>germanywestcentral</region>
-		            <runtime>
-		                <os>Linux</os>
-		                <javaVersion>Java 17</javaVersion>
-		                <webContainer>Java SE</webContainer>
-		            </runtime>
-		            <deployment>
-		                <resources>
-		                    <resource>
-		                        <directory>C:\Amita\MyProjects\projects\LoansAppOnAzure\Omega\Front\webapp/target</directory>
-		                        <includes>
-		                            <include>*.jar</include>
-		                        </includes>
-		                    </resource>
-		                </resources>
-		            </deployment>
-		            <archive>
-				          <manifest>
-				            <addClasspath>true</addClasspath>
-				            <classpathPrefix>lib/</classpathPrefix>
-				            <mainClass>com.omegadummy.webapp.WebappApplication</mainClass>
-				          </manifest>
-				     </archive>
-		        </configuration>
-		    </plugin>
+		    
 		</plugins>
 	</build>
 
