@@ -81,7 +81,7 @@ stages:
               azureSubscription: 'Azure subscription 1(1)(c00274c6-77cd-4c79-9a60-4dc0810f07f4)'
               appType: 'webAppLinux'
               WebAppName: 'LoansApp'
-              packageForLinux: '$(System.DefaultWorkingDirectory)/**/webapp-0.0.1-SNAPSHOT.jar'
+              packageForLinux: '$(System.DefaultWorkingDirectory)/**/app.jar'
               RuntimeStack: 'JAVA|17-java17'
               DeploymentTypeLinux: 'oneDeploy'
                         #package: '$(Pipeline.Workspace)/drop/**/target/
