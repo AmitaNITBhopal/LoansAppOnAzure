@@ -47,6 +47,8 @@ stages:
         script: |
           Write-Host pwd
           
+          echo  '$(System.DefaultWorkingDirectory)'
+          
           Copy-Item -Path '/**/webapp-0.0.1-SNAPSHOT.jar' -Destination '/**/app.jar'
         progressPreference: 'continue'
 
