@@ -48,7 +48,7 @@ stages:
           Write-Host pwd
           
           Copy-Item -Path '/**/webapp-0.0.1-SNAPSHOT.jar' -Destination '/**/app.jar'
-        progressPreference: 'stop'
+        progressPreference: 'continue'
 
     - task: CopyFiles@2
       displayName: 'Copy Files to artifact staging directory'
